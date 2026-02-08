@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prediksi Pakan Domba | Input Data</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container navbar">
+        <div class="brand">
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect width="64" height="64" rx="16" fill="#A5D6A7" />
+            <path
+              d="M21 38c-4.4 0-8-3.6-8-8s3.6-8 8-8c2.3 0 4.3 1 5.7 2.6A9.5 9.5 0 0 1 45 29v9c0 6.1-4.9 11-11 11h-3.5"
+              stroke="#1B5E20"
+              stroke-width="3"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M26 43c2.5 2.5 5.7 3.8 9.5 3.8 7 0 12.5-5.5 12.5-12.5"
+              stroke="#2E7D32"
+              stroke-width="3"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path d="M18 27h7" stroke="#2E7D32" stroke-width="3" stroke-linecap="round" />
+            <path d="M46 21v10" stroke="#2E7D32" stroke-width="3" stroke-linecap="round" />
+          </svg>
+          <span>Prediksi Pakan Domba</span>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="input-data.html">Input Data</a></li>
+            <li><a href="proses.html">Proses</a></li>
+            <li><a href="hasil.html">Hasil</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="section">
+      <div class="container">
+        <div class="progress">
+          <div class="progress-step active">Input Data Domba</div>
+          <div class="progress-step">Proses Perhitungan</div>
+          <div class="progress-step">Hasil Prediksi</div>
+        </div>
+
+        <div class="section-title">
+          <h2>Input Data Domba</h2>
+          <p>Lengkapi data berikut untuk memulai proses prediksi kebutuhan pakan.</p>
+        </div>
+
+        <div class="form-card">
+          <form>
+            <div class="form-group">
+              <label for="berat">Berat Badan Domba (kg)</label>
+              <input type="number" id="berat" name="berat" placeholder="Contoh: 45" required />
+            </div>
+            <div class="form-group">
+              <label for="umur">Umur Domba (bulan)</label>
+              <input type="number" id="umur" name="umur" placeholder="Contoh: 6" required />
+            </div>
+            <div class="form-group">
+              <label for="jumlah">Jumlah Domba</label>
+              <input type="number" id="jumlah" name="jumlah" placeholder="Contoh: 10" required />
+            </div>
+            <a class="btn-primary" href="proses.html">Prediksi Kebutuhan Pakan</a>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>Sistem Prediksi Pakan Domba</p>
+        <p>Tugas Akhir – Nama Mahasiswa</p>
+      </div>
+    </footer>
+  </body>
+</html>
